@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <stack> 
 #include <iostream> 
 using namespace std;
 
@@ -13,7 +12,6 @@ int main()
 	temps.open("C:\\yourdirectory\\temps.txt");
 	myfile.open("C:\\yourdirectory\\klippy.log");
 	string myline;
-	stack<double> stack;
 	if (myfile.is_open()) {
 		while (myfile) {
 			getline(myfile, myline);
